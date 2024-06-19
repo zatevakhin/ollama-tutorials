@@ -8,4 +8,6 @@ dependencies:
   - ipython=8.25.0
   - ipykernel=6.29.4
   - pip:
-    - ollama==0.2.1
+    - ollama
+    - httpx
+    - matplotlib
