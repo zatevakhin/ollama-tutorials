@@ -1,0 +1,11 @@
+name: ollama-playground
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.11
+  - ipython=8.25.0
+  - ipykernel=6.29.4
+  - pip:
+    - ollama==0.2.1
